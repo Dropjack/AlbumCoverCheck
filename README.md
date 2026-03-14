@@ -105,8 +105,7 @@ album_cover_check E:\Music --modified-within-days 30 --output-dir D:\AlbumCoverC
 ## 仓库说明
 
 * `README.md`：项目使用说明
-* `工程复盘.md`：记录这次开发过程中的设计取舍和后续问题
-* `album_cover_check.toml`：示例配置文件（中文）
+* `sample.config.toml`：示例配置文件（中文）
 
 ## 后续计划
 

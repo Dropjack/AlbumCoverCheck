@@ -1,0 +1,19 @@
+# Album Cover Check 配置文件
+# 直接修改这个文件即可。
+# 如果同时传了命令行参数，CLI 参数优先。
+
+# 填入扫描的音乐根目录
+scan_root = 'E:\Music'
+
+# 填入输出目录
+output_dir = 'E:\Music'
+
+# 输出格式，可选：
+# - "text"
+# - "csv"
+# - "json"
+output_format = "csv"
+
+# 只扫描最近 N 天修改过的音频文件
+# 如果想全量扫描，可以把这一行注释掉
+modified_within_days = 180
